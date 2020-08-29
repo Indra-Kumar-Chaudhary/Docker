@@ -12,7 +12,7 @@ FROM ubuntu
 Example:
 FROM ubuntu 
 ADD . /var/wwww/html 
-<pre>
+</pre>
 
 <b>3. RUN</b>
 <p>The RUN keyworkd is used to add layers to theh base image, by installing components. 
