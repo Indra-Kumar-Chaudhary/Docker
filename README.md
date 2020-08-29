@@ -7,6 +7,7 @@ FROM ubuntu
 </pre>
 <b>2. ADD </b>
 <p>The ADD keyword is used to add files to the container being build. The syntax which is followed is <b>ADD <source><destination></b>
+</p>
 <pre>
 Example:
 FROM ubuntu 
