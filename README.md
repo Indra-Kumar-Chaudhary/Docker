@@ -62,3 +62,9 @@ ENV envariable
 <p>
 So, if there are any environment variables that you want to set inside the container you can pass it using the command env space the name of the variable and space the value of the variable all right so in my case envvariable
 </p>
+
+<h1>Commands to build docker image </h1>
+<pre>
+sudo docker build . -t <imagename>
+sudo docker run -it -p 84:80 -d <imagename> (to run container)
+<pre>
